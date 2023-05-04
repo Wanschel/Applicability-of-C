@@ -17,8 +17,9 @@ int x;
 	for(x=x;x>0;x=x-1){
 	
 		printf("%d\n",x);
-		printf("\nCountdown");
+		
 	}
+	printf("\nCountdown");
 	
 }
 else {
