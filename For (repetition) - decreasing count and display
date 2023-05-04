@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+int x;
+
+//for(i=(the starting point) ; i=(the end point) ; i=i-x(the formula for increasing or decreasing)
+
+
+
+	printf("Insert the starting number: \n");
+	scanf("%d",&x);	
+	
+	
+	if (x>0){
+	
+	
+	for(x=x;x>0;x=x-1){
+	
+		printf("%d\n",x);
+		printf("\nCountdown");
+	}
+	
+}
+else {
+	printf("Negative number");
+}
+	
+	
+	return 0;
+}
